@@ -1,2 +1,7 @@
 # VSIX_downloader
-一个用于在vscode官网下载vsix格式插件的chrome插件
+这是一个用于在VSCode官网下载VSIX格式插件的Chrome扩展程序，旨在解决微软在2025年1月某次更新中取消了官网的VSIX下载渠道后无法下载VSIX文件的问题
+
+### 使用方法
+打开Chrome/Edge浏览器的扩展程序管理界面并打开开发者模式，然后把src文件夹拖进来，即可加载本扩展程序
+
+然后打开VSCode插件商店点击任意插件界面，在右侧Resources栏会新增一个下载VSIX的超链接，点击即可下载当前插件的VSIX文件
